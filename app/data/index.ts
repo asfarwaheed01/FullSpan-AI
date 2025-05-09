@@ -1,0 +1,1 @@
+export { solutionsDataMap } from "./businessSoultionsData";
