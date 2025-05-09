@@ -82,7 +82,7 @@ const HeroSection = () => {
         >
           {/* Left container */}
           <motion.div
-            className="hiddne md:block absolute -left-4 md:-left-10 -top-8 -z-10 opacity-60 w-16 h-16 md:w-96 md:h-96"
+            className="hidden md:block absolute -left-4 md:-left-10 -top-8 -z-10 opacity-60 w-16 h-16 md:w-96 md:h-96"
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 0.6 }}
             transition={{ duration: 1, delay: 0.8 }}
@@ -96,7 +96,7 @@ const HeroSection = () => {
 
           {/* Right container */}
           <motion.div
-            className="hiddne md:block absolute -right-4 md:-right-37 -top-5 -z-10 opacity-60 w-32 h-32 md:w-96 md:h-96"
+            className="hidden md:block absolute -right-4 md:-right-37 -top-5 -z-10 opacity-60 w-32 h-32 md:w-96 md:h-96"
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: 0, opacity: 0.6 }}
             transition={{ duration: 1, delay: 0.8 }}

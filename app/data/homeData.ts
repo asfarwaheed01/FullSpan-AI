@@ -27,8 +27,8 @@ export const heroData = {
   ],
   images: {
     hero: "/static/assets/home/HeroImage.png",
-    containerLeft: "/static/assets/home/container-left.png",
-    containerRight: "/static/assets/home/container-right.png",
+    containerLeft: "/static/assets/home/Container-left.png",
+    containerRight: "/static/assets/home/Container-right.png",
   },
 };
 
