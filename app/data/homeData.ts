@@ -89,8 +89,8 @@ export const servicesData = {
       description:
         "Empower your academic and career journey with AI tools for resume building, LinkedIn optimization, and smart career path planning.",
       images: {
-        impression: "/static/assets/home/impression.png",
-        stat: "/static/assets/home/stat.png",
+        impression: "/static/assets/home/Impression.png",
+        stat: "/static/assets/home/Stat.png",
       },
       position: "right",
     },
@@ -100,8 +100,8 @@ export const servicesData = {
       description:
         "Accelerate career advancement with AI-powered job impact analysis, resume refinement, and LinkedIn optimization tailored for experienced professionals.",
       images: {
-        impression: "/static/assets/home/impression.png",
-        stat: "/static/assets/home/stat.png",
+        impression: "/static/assets/home/Impression.png",
+        stat: "/static/assets/home/Stat.png",
       },
       position: "left",
     },
@@ -111,8 +111,8 @@ export const servicesData = {
       description:
         "Drive innovation with custom AI strategies, seamless integrations, and team training designed to elevate business operations and decision-making.",
       images: {
-        impression: "/static/assets/home/impression.png",
-        stat: "/static/assets/home/stat.png",
+        impression: "/static/assets/home/Impression.png",
+        stat: "/static/assets/home/Stat.png",
       },
       position: "right",
     },
