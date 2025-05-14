@@ -83,7 +83,7 @@ const ContactQuestionSection: React.FC<ContactQuestionSectionProps> = ({
             <div className="flex justify-center mb-6">
               <div className="flex -space-x-4">
                 <Image
-                  src="/static/assets/contact-us/list.png"
+                  src="/static/assets/contact-us/List.png"
                   alt="Team member 1"
                   width={300}
                   height={100}
