@@ -18,7 +18,7 @@ const NAV_ITEMS = [
   },
   { label: "Why Choose Us", href: "/why-choose-us" },
   { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" },
+  { label: "Contact", href: "/contact-us" },
 ];
 
 export default function Navbar() {
@@ -50,7 +50,7 @@ export default function Navbar() {
         >
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/static/assets/Link.png"
+              src="/static/assets/Logo.png"
               alt="Logo"
               width={120}
               height={40}

@@ -77,44 +77,43 @@ export const tabsData = {
   },
 };
 
+// servicesData.ts
 export const servicesData = {
-  heading: {
-    start: "Our ",
-    highlight: "Services",
-  },
+  sectionTitle: "Our Services",
   services: [
     {
-      id: "01",
+      id: "students",
       title: "Students Career Assistant",
       description:
         "Empower your academic and career journey with AI tools for resume building, LinkedIn optimization, and smart career path planning.",
-      images: {
-        impression: "/static/assets/home/Impression.png",
-        stat: "/static/assets/home/Stat.png",
-      },
-      position: "right",
+      buttonText: "UNLOCK AI CAREER INSIGHTS",
+      buttonLink: "/solutions/students",
+      imageSrc: "/static/assets/home/career.png",
+      imageAlt: "Students Career Assistant",
+      imageOnRight: true,
+      bgColor: "none",
     },
     {
-      id: "02",
+      id: "professionals",
       title: "Professionals Career Suite",
       description:
         "Accelerate career advancement with AI-powered job impact analysis, resume refinement, and LinkedIn optimization tailored for experienced professionals.",
-      images: {
-        impression: "/static/assets/home/Impression.png",
-        stat: "/static/assets/home/Stat.png",
-      },
-      position: "left",
+      buttonText: "OPTIMIZE MY RESUME NOW",
+      buttonLink: "/solutions/professionals",
+      imageSrc: "/static/assets/solutions/textimage.png",
+      imageAlt: "Professionals Career Suite",
+      imageOnRight: false,
     },
     {
-      id: "03",
+      id: "business",
       title: "AI Services for Business",
       description:
         "Drive innovation with custom AI strategies, seamless integrations, and team training designed to elevate business operations and decision-making.",
-      images: {
-        impression: "/static/assets/home/Impression.png",
-        stat: "/static/assets/home/Stat.png",
-      },
-      position: "right",
+      buttonText: "UNLOCK AI CAREER INSIGHTS",
+      buttonLink: "/solutions/businesses",
+      imageSrc: "/static/assets/solutions/textimage.png",
+      imageAlt: "AI Services for Business",
+      imageOnRight: true,
     },
   ],
 };

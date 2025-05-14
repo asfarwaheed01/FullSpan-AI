@@ -94,7 +94,7 @@ const Footer = () => {
           >
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/static/assets/Link.png"
+                src="/static/assets/Logo.png"
                 alt="Logo"
                 className="h-[30px] w-[119px] object-cover"
               />
