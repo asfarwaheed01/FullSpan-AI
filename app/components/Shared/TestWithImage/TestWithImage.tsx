@@ -131,7 +131,7 @@ const TextWithImage: React.FC<TextWithImageProps> = ({
             </motion.div>
 
             <motion.div className="w-full md:w-1/2" variants={itemVariants}>
-              <div className="relative rounded-xl overflow-hidden shadow-lg h-[300px] md:h-[400px]">
+              <div className="relative rounded-xl overflow-hidden h-[300px] md:h-[400px]">
                 <Image
                   src={imageSrc}
                   alt={imageAlt}

@@ -16,7 +16,7 @@ const NAV_ITEMS = [
       { label: "For Businesses", href: "/solutions/businesses" },
     ],
   },
-  { label: "Why Choose Us", href: "/why-choose-us" },
+  { label: "Our AI Manifesto", href: "/ai-manifesto" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact-us" },
 ];

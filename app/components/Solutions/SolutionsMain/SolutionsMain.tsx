@@ -5,11 +5,14 @@ import { motion } from "framer-motion";
 import { SolutionHeroProps } from "@/app/types/solutions";
 
 interface SolutionsMainProps {
-  hero: SolutionHeroProps;
+  hero: SolutionHeroProps & {
+    normalTextColor?: string;
+    highlightedTextColor?: string;
+    descriptionTextColor?: string;
+  };
 }
 
 const SolutionsMain: React.FC<SolutionsMainProps> = ({ hero }) => {
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -29,11 +32,15 @@ const SolutionsMain: React.FC<SolutionsMainProps> = ({ hero }) => {
     },
   };
 
+  const normalTextColor = hero.normalTextColor || "text-white";
+  const highlightedTextColor = hero.highlightedTextColor || "text-[#8624FF]";
+  const descriptionTextColor = hero.descriptionTextColor || "text-gray-300";
+
   return (
     <section
       className={`w-full py-16 md:py-24 ${
         hero.backgroundClass || "bg-main-bg"
-      } text-white`}
+      }`}
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -43,15 +50,17 @@ const SolutionsMain: React.FC<SolutionsMainProps> = ({ hero }) => {
           animate="visible"
         >
           <motion.h1
-            className="text-[40px] md:text-[48px] lg:text-[56px] font-bold mb-6 leading-tight"
+            className={`text-[40px] md:text-[48px] lg:text-[56px] font-bold mb-6 leading-tight ${normalTextColor}`}
             variants={itemVariants}
           >
             {hero.title.normalText}
-            <span className="text-[#8624FF]">{hero.title.highlightedText}</span>
+            <span className={highlightedTextColor}>
+              {hero.title.highlightedText}
+            </span>
           </motion.h1>
 
           <motion.p
-            className="text-[16px] md:text-[17px] text-gray-300 mx-auto"
+            className={`text-[16px] md:text-[17px] mx-auto ${descriptionTextColor}`}
             variants={itemVariants}
           >
             {hero.description}
