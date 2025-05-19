@@ -80,7 +80,7 @@ const TextWithImage: React.FC<TextWithImageProps> = ({
   };
 
   const containerClass = withBorder
-    ? "border border-purple-200 rounded-3xl overflow-hidden p-8 md:p-12"
+    ? "border-[2px] border-purple-200 rounded-3xl overflow-hidden p-8 md:p-12"
     : "";
 
   return (

@@ -17,7 +17,7 @@ const NAV_ITEMS = [
     ],
   },
   { label: "Our AI Manifesto", href: "/ai-manifesto" },
-  { label: "Blog", href: "/blog" },
+  { label: "News", href: "/news" },
   { label: "Contact", href: "/contact-us" },
 ];
 
