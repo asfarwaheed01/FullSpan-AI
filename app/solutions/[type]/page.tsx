@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import SolutionsMain from "@/app/components/Solutions/SolutionsMain/SolutionsMain";
 import TextWithImage from "@/app/components/Shared/TestWithImage/TestWithImage";
 import FeatureCardsSection from "@/app/components/Solutions/FeatureCardsSection/FeatureCardsSection";
-import ArticlesSection from "@/app/components/Shared/ArticlesSection/ArticlesSection";
+// import ArticlesSection from "@/app/components/Shared/ArticlesSection/ArticlesSection";
 import { solutionsDataMap } from "@/app/data";
 import TabbedSection from "@/app/components/Solutions/TabbedSection/TabbedSection";
 import ComingSoon from "@/app/components/Solutions/CommingSoon/CommingSoon";
@@ -86,7 +86,7 @@ export default async function SolutionPage(props: SolutionPageProps) {
           targetDate={sections.comingSoon.targetDate}
         />
       )}
-      {sections.articles && (
+      {/* {sections.articles && (
         <ArticlesSection
           heading={sections.articles.heading}
           subheading={sections.articles.subheading}
@@ -94,7 +94,7 @@ export default async function SolutionPage(props: SolutionPageProps) {
           viewAllLink={sections.articles.viewAllLink}
           viewAllText={sections.articles.viewAllText}
         />
-      )}
+      )} */}
       {sections.faqs && (
         <FAQsSection title={sections.faqs.title} faqs={sections.faqs.faqs} />
       )}

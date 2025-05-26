@@ -10,7 +10,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import {
-  trustedCompanies,
+  // trustedCompanies,
   quickLinks,
   helpInfo,
   socialMedia,
@@ -27,15 +27,15 @@ const fadeInUp = {
   },
 };
 
-const staggerChildren = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
+// const staggerChildren = {
+//   hidden: { opacity: 0 },
+//   visible: {
+//     opacity: 1,
+//     transition: {
+//       staggerChildren: 0.1,
+//     },
+//   },
+// };
 
 const Footer = () => {
   const [email, setEmail] = React.useState("");
@@ -48,7 +48,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-main-bg text-white py-16">
-      <motion.div
+      {/* <motion.div
         className="container mx-auto mb-16"
         initial="hidden"
         whileInView="visible"
@@ -79,12 +79,12 @@ const Footer = () => {
             </motion.div>
           ))}
         </motion.div>
-      </motion.div>
+      </motion.div> */}
 
       <div className="container mx-auto">
-        <hr className="border-gray-800 my-16" />
+        {/* <hr className="border-gray-800 my-16" /> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="px-[5%] md:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <motion.div
             initial="hidden"
             whileInView="visible"

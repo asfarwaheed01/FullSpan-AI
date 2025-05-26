@@ -7,12 +7,10 @@ import TextWithImage from "../../Shared/TestWithImage/TestWithImage";
 const ServicesSection = () => {
   const { services } = servicesData;
 
-  console.log("The services are", services);
-
   return (
     <section className="py-16 bg-secondary-bg">
       <div className="container mx-auto px-4">
-        <h2 className="md:text-[50px] font-bold text-center mb-12">
+        <h2 className="text-[40px] md:text-[50px] font-bold text-center mb-12">
           <span className="text-black">Our </span>
           <span className="text-purple-600">Services</span>
         </h2>

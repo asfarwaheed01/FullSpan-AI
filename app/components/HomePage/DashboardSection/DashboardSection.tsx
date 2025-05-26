@@ -34,12 +34,14 @@ const DashboardSection: React.FC<DashboardSectionProps> = ({
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div
-              className="inline-block px-4 py-1 rounded-full text-[14px] font-medium mb-6 border border-purple-500"
-              style={{ backgroundColor: "rgba(134, 36, 255, 0.1)" }}
-            >
-              {tag}
-            </div>
+            {tag && (
+              <div
+                className="inline-block px-4 py-1 rounded-full text-[14px] text-[#8624FF] font-medium mb-6 border border-purple-500"
+                style={{ backgroundColor: "rgba(134, 36, 255, 0.1)" }}
+              >
+                {tag}
+              </div>
+            )}
 
             <h2 className="text-[36px] text-white md:text-[48px] font-bold mb-6">
               {heading}
@@ -50,25 +52,27 @@ const DashboardSection: React.FC<DashboardSectionProps> = ({
             </p>
 
             {/* Stats Row */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-gray-700 pt-10">
-              {stats.map((stat, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: 0.1 * index }}
-                  className="text-center md:text-left"
-                >
-                  <h3 className="text-[36px] md:text-[45px] font-bold text-white mb-2">
-                    {stat.value}
-                  </h3>
-                  <p className="text-[16px] md:text-[18px] text-gray-300">
-                    {stat.label}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
+            {stats && stats.length > 0 && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-gray-700 pt-10">
+                {stats.map((stat, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.1 * index }}
+                    className="text-center md:text-left"
+                  >
+                    <h3 className="text-[36px] md:text-[45px] font-bold text-white mb-2">
+                      {stat.value}
+                    </h3>
+                    <p className="text-[16px] md:text-[18px] text-gray-300">
+                      {stat.label}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
+            )}
           </motion.div>
 
           {/* Right Column - Dashboard Image */}

@@ -15,15 +15,15 @@ export const aiManifestoData = {
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
     description:
-      "We believe responsible AI begins with a clear framework of ethical principles, transparent decision-making processes, and consistent mechanisms for oversight and accountability.",
+      "We embed accountability at every stage—from data sourcing to model deployment—so that outcomes remain fair, transparent, and aligned with stakeholder values.",
     imageSrc: "/static/assets/manifesto/responsible.png",
     imageAlt:
       "Responsible AI concept with shield icons representing protection and trust",
     imageOnRight: true,
     bulletPoints: [
-      "Ethical use falls within clear boundaries of acceptable use cases",
-      "Comprehensive implementation review ensures ongoing adherence to established values",
-      "Continuous governance feedback loops for testing operational guardrails and impact",
+      "Rigorous bias testing and impact reviews before launch",
+      "Clear lines of ownership for model performance, monitoring, and retraining",
+      "Continuous community feedback loops to keep solutions people‑centered",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -34,15 +34,15 @@ export const aiManifestoData = {
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
     description:
-      "Technology should work for humanity. To achieve that result, we can recognize the complex interplay between technology, purpose, and context with equity.",
+      "Technology should uplift, not exploit. Our ethics framework sets non‑negotiable standards for privacy, consent, and societal well‑being.",
     imageSrc: "/static/assets/manifesto/ethical.png",
     imageAlt:
       "Ethical AI concept showing magnifying glass examining ethics in technology",
     imageOnRight: false,
     bulletPoints: [
-      "Decision-making methodology for design globals",
-      "Inclusive representation guides high-level implementation design",
-      "Clearly articulated principles across the full stack of product architecture",
+      "Data‑minimization and privacy‑by‑design policies",
+      "Independent ethics advisory to review high‑impact projects",
+      "Formal escalation paths for concerns and whistle‑blower protection",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -53,15 +53,15 @@ export const aiManifestoData = {
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
     description:
-      "Trust grows when decision-making is visible to those it affects.",
+      "Trust grows when people understand why a model makes a decision.",
     imageSrc: "/static/assets/manifesto/explainable.png",
     imageAlt:
       "Explainable AI concept with speech bubbles and digital brain illustration",
     imageOnRight: true,
     bulletPoints: [
-      "Intuitive visibility into patterns the AI identifies and recommendations",
-      "Clear decision-making processes for humans to evaluate key data points",
-      "Accessible logs of AI models and data sets used for problem-solving decisions",
+      "Human‑readable explanations for predictions and recommendations",
+      "Visual model‑interpretability dashboards for end users and auditors",
+      "Documentation that meets (and anticipates) evolving regulatory demands",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -72,14 +72,14 @@ export const aiManifestoData = {
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
     description:
-      "Complex technologies like AI need intuitive, human-focused interfaces that simplify access and reduce barriers.",
+      "Innovation must be inclusive. We lower technical, financial, and cultural barriers so everyone can benefit.",
     imageSrc: "/static/assets/manifesto/acessable.png",
     imageAlt: "Accessible AI concept showing user-friendly interface on laptop",
     imageOnRight: false,
     bulletPoints: [
-      "Prioritized focus on accessible solutions for people across capabilities",
-      "Simplified AI interfaces, language, and design patterns for intuitive use",
-      "Learning assistants – from AI help to visual cues – to reduce effort at scale",
+      "Tiered pricing and scholarship programs for students and nonprofits",
+      "Multilingual interfaces, assistive‑tech compatibility, and mobile‑first design",
+      "Learning resources—from tutorials to mentorship—to democratize AI skills",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -90,15 +90,15 @@ export const aiManifestoData = {
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
     description:
-      "We build solutions to drive real benefit, not just proof of code.",
-    imageSrc: "/static/assets/manifesto/acessable.png", // Update to correct path
+      "We measure success by real‑world results, not just lines of code.",
+    imageSrc: "/static/assets/manifesto/acessable.png",
     imageAlt:
       "Impactful AI concept showing laptop with visualization of impact metrics",
     imageOnRight: true,
     bulletPoints: [
-      "KPI-aligned outcomes with clear evidence of value creation",
-      "Impact assessment throughout development, deployment, and active usage",
-      "Purposeful ROI testing that balanced business economics and value creation",
+      "KPI‑aligned success metrics co‑defined with each client or learner",
+      "Rapid‑cycle pilots to validate value before full‑scale rollout",
+      "Transparent ROI reporting that tracks both economic and social impact",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -108,15 +108,15 @@ export const aiManifestoData = {
       { text: "Sustainable " },
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
-    description: "Environmental stewardship matters in AI solutions.",
-    imageSrc: "/static/assets/manifesto/acessable.png", // Update to correct path
+    description: "Future‑proof solutions should respect the planet today.",
+    imageSrc: "/static/assets/manifesto/acessable.png",
     imageAlt:
       "Sustainable AI concept showing laptop with environmental metrics",
     imageOnRight: false,
     bulletPoints: [
-      "Energy-efficient model architecture and green computing footprint",
-      "Life cycle sustainability goals for all deployments, models, and workloads",
-      "Partnering with environmental organizations to guide toward carbon-negative impact",
+      "Energy‑efficient model architectures and green‑cloud deployment targets",
+      "Lifecycle‑aware development to avoid unnecessary compute waste",
+      "Partnership with environmental organizations to offset residual emissions",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -126,16 +126,15 @@ export const aiManifestoData = {
       { text: "Secured " },
       { text: "AI", highlight: true, color: "#8624FF" },
     ],
-    description:
-      "Trust begins and ends with security. Data security is our architecture's foundation.",
+    description: "Security is foundational- not an afterthought.",
     imageSrc: "/static/assets/manifesto/secured.png",
     imageAlt:
       "Secured AI concept showing digital security measures and protection",
     imageOnRight: true,
     bulletPoints: [
-      "Zero-compromise data security and protection with industry-leading safeguards",
-      "Full respect of SOC2, HIPAA, GDPR, and other privacy security standards",
-      "Shared system operation standards with 24/7 monitoring",
+      "End‑to‑end encryption, zero‑trust access controls, and continuous pen‑testing",
+      "Compliance with ISO 27001, SOC 2, GDPR, and industry‑specific standards",
+      "Robust incident‑response playbooks and 24/7 monitoring",
     ],
     bgColor: "bg-white",
     withBorder: true,
@@ -146,15 +145,15 @@ export const aiManifestoData = {
       { text: "Risk-Mitigated AI", highlight: true, color: "#8624FF" },
     ],
     description:
-      "We mitigate threats to clients and stakeholders through proactive attention and applied practices.",
-    imageSrc: "/static/assets/manifesto/acessable.png", // Update to correct path
+      "We proactively identify, assess, and reduce risks—technical, operational, and societal—before they become issues",
+    imageSrc: "/static/assets/manifesto/acessable.png",
     imageAlt:
       "Risk-Mitigated AI concept showing laptop with risk assessment visualization",
     imageOnRight: false,
     bulletPoints: [
-      "End-to-end risk assessments in all project plans",
-      "Regular threat vector, audit, and vulnerability testing",
-      "Up-to-date threat database of current and emerging exposures",
+      "Comprehensive risk assessments & mitigation plans",
+      "Scenario stress‑testing and adversarial evaluation",
+      "Fail‑safe fallback mechanisms & rapid rollback procedures",
     ],
     bgColor: "bg-white",
     withBorder: true,

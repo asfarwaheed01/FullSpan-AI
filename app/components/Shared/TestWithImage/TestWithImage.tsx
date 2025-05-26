@@ -122,7 +122,7 @@ const TextWithImage: React.FC<TextWithImageProps> = ({
               {buttonText && buttonLink && (
                 <Link
                   href={buttonLink}
-                  className="inline-flex items-center bg-purple-600 text-white px-6 py-3 rounded-full font-medium hover:bg-purple-700 transition-colors mt-4"
+                  className="text-[10px] md:text-[15px] inline-flex items-center bg-purple-600 text-white px-6 py-3 rounded-full font-medium hover:bg-purple-700 transition-colors mt-4"
                 >
                   {buttonText}
                   <FiArrowRight className="ml-2" />

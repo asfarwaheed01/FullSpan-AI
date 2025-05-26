@@ -42,7 +42,7 @@ export const tabsData = {
     "Whether you're launching a career, leveling up your role, or future-proofing your organization, FullSpanAI delivers solutions that are responsible, impactful, explainable, ethical, sustainable, and secured—ensuring your success in the AI-powered economy.",
   ctaButton: {
     text: "Learn More about our AI Commitments",
-    url: "/ai-commitments",
+    url: "/ai-manifesto",
   },
   tabs: [
     {
@@ -100,7 +100,7 @@ export const servicesData = {
         "Accelerate career advancement with AI-powered job impact analysis, resume refinement, and LinkedIn optimization tailored for experienced professionals.",
       buttonText: "OPTIMIZE MY RESUME NOW",
       buttonLink: "/solutions/professionals",
-      imageSrc: "/static/assets/solutions/textimage.png",
+      imageSrc: "/static/assets/home/professional-career.png",
       imageAlt: "Professionals Career Suite",
       imageOnRight: false,
     },
@@ -111,7 +111,7 @@ export const servicesData = {
         "Drive innovation with custom AI strategies, seamless integrations, and team training designed to elevate business operations and decision-making.",
       buttonText: "UNLOCK AI CAREER INSIGHTS",
       buttonLink: "/solutions/businesses",
-      imageSrc: "/static/assets/solutions/textimage.png",
+      imageSrc: "/static/assets/home/business-career.png",
       imageAlt: "AI Services for Business",
       imageOnRight: true,
     },

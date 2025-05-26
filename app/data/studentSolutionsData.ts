@@ -30,7 +30,7 @@ export const studentSolutionData: SolutionPageData = {
             "Prepare for Interviews",
           ],
           buttonText: "Try Career Assessment Tool",
-          buttonLink: "/tools/career-assessment",
+          buttonLink: "#",
         },
         {
           id: "resume-optimizer",
@@ -43,7 +43,7 @@ export const studentSolutionData: SolutionPageData = {
             "ATS-friendly formatting for higher success",
           ],
           buttonText: "Try Resume Assistant",
-          buttonLink: "/tools/resume-assistant",
+          buttonLink: "#",
         },
         {
           id: "linkedin-optimizer",
@@ -56,7 +56,7 @@ export const studentSolutionData: SolutionPageData = {
             "Learn what top profiles in your field use",
           ],
           buttonText: "Try LinkedIn Profile Optimizer",
-          buttonLink: "/tools/linkedin-optimizer",
+          buttonLink: "#",
         },
       ],
       backgroundColor: "bg-pink-50",

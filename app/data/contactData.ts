@@ -27,7 +27,7 @@ export const ContactData = {
         id: "email",
         icon: "email",
         title: "Email Us",
-        details: ["help@webteck-mail.com", "24/7@webteck-online.com"],
+        details: ["info@fallspan.ai"],
       },
     ],
   },

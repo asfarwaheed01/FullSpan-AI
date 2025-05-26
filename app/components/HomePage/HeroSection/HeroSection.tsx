@@ -40,7 +40,7 @@ const HeroSection = () => {
           </motion.p>
 
           {/* Buttons */}
-          <motion.div
+          {/* <motion.div
             className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 mb-8 md:mb-16"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -67,6 +67,37 @@ const HeroSection = () => {
                 >
                   {button.text}
                   <GoArrowUpRight className="text-base md:text-lg" />
+                </Link>
+              </motion.div>
+            ))}
+          </motion.div> */}
+          <motion.div
+            className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 mb-8 md:mb-16 px-4 sm:px-0"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+          >
+            {heroData.buttons.map((button, index) => (
+              <motion.div
+                key={button.id}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.5 + index * 0.1 }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="w-auto max-w-xs mx-auto sm:mx-0 sm:w-auto"
+              >
+                <Link
+                  href={button.url}
+                  className={`inline-flex items-center justify-center gap-1 sm:gap-2 rounded-full py-2.5 sm:py-2.5 md:py-3 px-6 sm:px-5 md:px-6 text-[12px] sm:text-[11px] md:text-[12px] font-medium transition-all whitespace-nowrap
+          ${
+            index === 1
+              ? "bg-gradient-to-b from-[#8624FF] to-[#1D1E9D] text-white hover:shadow-lg hover:shadow-purple-500/25"
+              : "bg-gray-800 hover:bg-gray-700 text-white hover:shadow-lg"
+          }`}
+                >
+                  {button.text}
+                  <GoArrowUpRight className="text-base md:text-lg flex-shrink-0" />
                 </Link>
               </motion.div>
             ))}

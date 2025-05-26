@@ -17,7 +17,9 @@ const NAV_ITEMS = [
     ],
   },
   { label: "Our AI Manifesto", href: "/ai-manifesto" },
-  { label: "News", href: "/news" },
+  // { label: "News", href: "/news" },
+  { label: "Our Team", href: "/our-team" },
+
   { label: "Contact", href: "/contact-us" },
 ];
 
@@ -144,7 +146,7 @@ export default function Navbar() {
           transition={{ duration: 0.3, delay: 0.3 }}
         >
           <Link
-            href="/get-started"
+            href="#"
             className="bg-purple-600 hover:bg-purple-700 font-medium py-2 px-6 rounded-full shadow-lg transition flex items-center"
           >
             <span>Get Start</span>
@@ -224,17 +226,6 @@ export default function Navbar() {
                 </motion.li>
               ))}
 
-              {/* Mobile actions */}
-              <motion.li
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.2, delay: NAV_ITEMS.length * 0.05 }}
-              >
-                <button className="flex items-center space-x-1 py-2 hover:text-purple-300 transition">
-                  <span>🇺🇸 EN</span>
-                  <FiChevronDown size={16} />
-                </button>
-              </motion.li>
               <motion.li
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -244,7 +235,7 @@ export default function Navbar() {
                 }}
               >
                 <Link
-                  href="/get-started"
+                  href="#"
                   className=" text-center bg-purple-600 hover:bg-purple-700 font-medium py-2 rounded-full shadow-lg transition flex items-center justify-center"
                 >
                   <span>Get Start</span>

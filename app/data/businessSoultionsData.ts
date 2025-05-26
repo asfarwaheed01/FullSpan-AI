@@ -33,7 +33,7 @@ export const businessSolutionData: SolutionPageData = {
             "Custom readiness score",
           ],
           buttonText: "Start Assessment",
-          buttonLink: "/tools/ai-readiness",
+          buttonLink: "#",
         },
         {
           id: "use-case",
@@ -48,7 +48,7 @@ export const businessSolutionData: SolutionPageData = {
             "Prioritization framework",
           ],
           buttonText: "Explore Use Cases",
-          buttonLink: "/tools/use-cases",
+          buttonLink: "#",
         },
         {
           id: "transformation",
@@ -63,7 +63,7 @@ export const businessSolutionData: SolutionPageData = {
             "Success metrics definition",
           ],
           buttonText: "Build Roadmap",
-          buttonLink: "/tools/transformation-roadmap",
+          buttonLink: "#",
         },
         {
           id: "chatbot",
@@ -78,7 +78,7 @@ export const businessSolutionData: SolutionPageData = {
             "Analytics dashboard",
           ],
           buttonText: "Deploy Chatbot",
-          buttonLink: "/tools/chatbot-builder",
+          buttonLink: "#",
         },
         {
           id: "predictive",
@@ -93,7 +93,7 @@ export const businessSolutionData: SolutionPageData = {
             "Custom prediction models",
           ],
           buttonText: "Explore Analytics",
-          buttonLink: "/tools/predictive-analytics",
+          buttonLink: "#",
         },
         {
           id: "visual-ai",
@@ -108,7 +108,7 @@ export const businessSolutionData: SolutionPageData = {
             "Custom vision models",
           ],
           buttonText: "See Demos",
-          buttonLink: "/tools/visual-ai",
+          buttonLink: "#",
         },
       ],
       backgroundColor: "bg-secondary-bg",

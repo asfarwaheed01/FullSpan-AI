@@ -30,7 +30,7 @@ export const professionalSolutionData: SolutionPageData = {
             "Tailored learning recommendations",
           ],
           buttonText: "Take Assessment",
-          buttonLink: "/tools/ai-literacy",
+          buttonLink: "#",
         },
         {
           id: "job-impact",
@@ -44,7 +44,7 @@ export const professionalSolutionData: SolutionPageData = {
             "Emerging skill opportunities",
           ],
           buttonText: "Analyze Your Role",
-          buttonLink: "/tools/job-impact",
+          buttonLink: "#",
         },
         {
           id: "career-pivot",
@@ -58,7 +58,7 @@ export const professionalSolutionData: SolutionPageData = {
             "Learning path recommendations",
           ],
           buttonText: "Explore Options",
-          buttonLink: "/tools/career-navigator",
+          buttonLink: "#",
         },
         {
           id: "resume-enhancer",
@@ -72,7 +72,7 @@ export const professionalSolutionData: SolutionPageData = {
             "ATS optimization",
           ],
           buttonText: "Update Resume",
-          buttonLink: "/tools/resume-enhancer",
+          buttonLink: "#",
         },
         {
           id: "networking",
@@ -86,7 +86,7 @@ export const professionalSolutionData: SolutionPageData = {
             "Industry community access",
           ],
           buttonText: "Start Networking",
-          buttonLink: "/tools/networking",
+          buttonLink: "#",
         },
       ],
       backgroundColor: "bg-secondary-bg",

@@ -4,9 +4,9 @@ export interface Stat {
 }
 
 export interface DashboardSectionProps {
-  tag: string;
+  tag?: string;
   heading: string;
   description: string;
   image: string;
-  stats: Stat[];
+  stats?: Stat[];
 }

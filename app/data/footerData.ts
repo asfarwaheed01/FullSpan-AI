@@ -28,28 +28,28 @@ export const trustedCompanies = [
 export const quickLinks = [
   {
     title: "For Students",
-    url: "/students",
+    url: "/solutions/students",
   },
   {
     title: "For Professionals",
-    url: "/professionals",
+    url: "/solutions/professionals",
   },
   {
     title: "For Businesses",
-    url: "/businesses",
+    url: "/solutions/businesses",
   },
-  {
-    title: "Why Choose Us",
-    url: "/why-choose-us",
-  },
-  {
-    title: "Success Stories",
-    url: "/success-stories",
-  },
-  {
-    title: "Contact Us",
-    url: "/contact",
-  },
+  // {
+  //   title: "Why Choose Us",
+  //   url: "/why-choose-us",
+  // },
+  // {
+  //   title: "Success Stories",
+  //   url: "/success-stories",
+  // },
+  // {
+  //   title: "Contact Us",
+  //   url: "/contact",
+  // },
 ];
 
 export const helpInfo = [
@@ -58,13 +58,13 @@ export const helpInfo = [
     url: "tel:+12152536321566",
   },
   {
-    title: "help@webteck-mail.com",
-    url: "mailto:help@webteck-mail.com",
+    title: "info@fallspan.ai",
+    url: "mailto:info@fallspan.ai",
   },
-  {
-    title: "24/7@webteck-online.com",
-    url: "mailto:24/7@webteck-online.com",
-  },
+  // {
+  //   title: "24/7@webteck-online.com",
+  //   url: "mailto:24/7@webteck-online.com",
+  // },
   {
     title: "webdexi.c12 Division Park, SKY 12546. Berlinom",
     url: "#",
